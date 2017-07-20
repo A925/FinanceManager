@@ -19,11 +19,12 @@ namespace FMService
 
         protected override void OnStart(string[] args)
         {
-            
+            Addlog("Сервис копирования файла запущен");
         }
 
         protected override void OnStop()
         {
+            Addlog("Сервис копирования файла остановлен");
         }
 
         public void Addlog(string log)
